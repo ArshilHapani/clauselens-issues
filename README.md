@@ -9,7 +9,7 @@ The ClauseLens source code is maintained in a private repository. This repositor
 - [Support website](https://clauselens-support.vercel.app)
 - [Report a bug](https://github.com/ArshilHapani/clauselens-issues/issues/new)
 - [View existing issues](https://github.com/ArshilHapani/clauselens-issues/issues)
-- [Email support](mailto:arshilhapani998@gmail.com?subject=ClauseLens%20support)
+- [Email support](mailto:arshil.clauselens@gmail.com?subject=ClauseLens%20support)
 
 ## Before creating an issue
 
@@ -31,7 +31,7 @@ Do not include confidential agreements, personal information, authentication det
 
 ClauseLens analyzes supported documents locally in your browser. See the [privacy page](https://clauselens-support.vercel.app/privacy) for more information.
 
-For questions containing private information, use [email support](mailto:arshilhapani998@gmail.com?subject=ClauseLens%20support) instead.
+For questions containing private information, use [email support](mailto:arshil.clauselens@gmail.com?subject=ClauseLens%20support) instead.
 
 ## Feature requests
 
@@ -46,7 +46,7 @@ Feature requests are welcome. Please describe:
 
 Do not disclose security vulnerabilities publicly.
 
-Please report security concerns privately by emailing [arshilhapani998@gmail.com](mailto:arshilhapani998@gmail.com?subject=ClauseLens%20security).
+Please report security concerns privately by emailing [arshilhapani998@gmail.com](mailto:arshil.clauselens@gmail.com?subject=ClauseLens%20security).
 
 ## Source code
 
