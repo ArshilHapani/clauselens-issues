@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ClauseLens support
+    url: https://clauselens-support.vercel.app
+    about: Read support information or contact us about a private question.
+  - name: Security report
+    url: https://clauselens-support.vercel.app/#contact
+    about: Report security vulnerabilities privately. Do not open a public issue.

@@ -1,0 +1,61 @@
+name: Feature request
+description: Suggest an improvement or new capability for ClauseLens.
+title: "[Feature]: "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement. Focus on the problem and desired outcome so the idea can be evaluated clearly.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the situation or limitation you are experiencing.
+      placeholder: I often need to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Explain how you would like the feature to work.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe any workarounds or other solutions you have tried.
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Who would benefit?
+      description: Explain who needs this feature and how often it would be useful.
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add safe-to-share examples, sketches, or references.
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: This request does not contain confidential document text, personal information, credentials, or other sensitive data.
+          required: true
+
+  - type: checkboxes
+    id: duplicate-check
+    attributes:
+      label: Existing issues
+      options:
+        - label: I searched the existing issues and did not find a matching request.
+          required: true

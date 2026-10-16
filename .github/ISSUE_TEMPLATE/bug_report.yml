@@ -1,0 +1,108 @@
+name: Bug report
+description: Report something that is not working correctly in ClauseLens.
+title: "[Bug]: "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve ClauseLens. Search existing issues before submitting a new report.
+
+        Do not include confidential agreements, private document text, passwords, authentication details, or other sensitive information.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Briefly describe the problem.
+      placeholder: ClauseLens showed an error when...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the smallest set of steps that consistently causes the problem.
+      placeholder: |
+        1. Open...
+        2. Click...
+        3. See...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect ClauseLens to do?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What did ClauseLens do instead?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Google Chrome
+        - Microsoft Edge
+        - Mozilla Firefox
+        - Other Chromium-based browser
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: browser-version
+    attributes:
+      label: Browser version
+      placeholder: "Example: 141.0.7390.55"
+    validations:
+      required: true
+
+  - type: input
+    id: extension-version
+    attributes:
+      label: ClauseLens version
+      description: Find this on your browser's extension-management page.
+      placeholder: "Example: 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: page-url
+    attributes:
+      label: Page URL
+      description: Optional. Share the URL only if the page is public and safe to disclose.
+      placeholder: https://example.com/terms
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add safe-to-share screenshots, console errors, or other useful details.
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I have removed confidential document text, personal information, credentials, and other sensitive data.
+          required: true
+
+  - type: checkboxes
+    id: duplicate-check
+    attributes:
+      label: Existing issues
+      options:
+        - label: I searched the existing issues and did not find a matching report.
+          required: true
